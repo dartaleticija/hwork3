@@ -1,0 +1,37 @@
+html {
+    padding: 20px;
+}
+
+body {
+    font-family: Arial;
+}
+
+#main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) ) ;
+    grid-gap: 4px;
+}
+
+.box {
+    margin: 4px;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a96f9b;
+}
+
+.fizz {
+    background-color: #9D3C72;
+}
+
+.buzz {
+    background-color: #C85C8E;
+}
+
+.fizzbuzz {
+    background-color: #FFBABA;
+}
+
